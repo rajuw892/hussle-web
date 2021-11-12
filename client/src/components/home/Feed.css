@@ -1,0 +1,48 @@
+/*------ Feed ------- */
+.feed {
+    flex: 0.6;
+    margin-top: 35px;
+    
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 0 0 10px #ddd;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.feed .feedheader .feedBtn{  
+    background: #f1f1f1;
+    width: 85%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #555;
+    padding: 0 10px;
+    text-align: left;
+    margin: 0 10px;
+    
+}
+
+
+.feed .inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.feed .input .feedBtn:hover{
+    background: #ddd;
+}
+
+
+@media (max-width: 768px) {
+    .feed{
+        margin-left: 1%;
+    }
+}

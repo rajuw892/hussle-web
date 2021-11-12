@@ -1,0 +1,13 @@
+.profile .cover {
+    margin-top: 2%;
+    margin-left: 5%;
+    align-items: center;
+    height: 300px;
+    width: 1080px;
+    border-radius: initial;
+
+}
+
+.profile {
+    background-color: #f3f2ef;
+}

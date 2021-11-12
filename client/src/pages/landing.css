@@ -1,0 +1,28 @@
+.landing{
+    background-color: white;
+    display: flex;
+}
+.heading {
+    background-color: white;
+}
+
+.rightside{
+    background-color: white;
+}
+
+.landing .heading{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+
+/*-----Responsive------- */
+
+@media (max-width: 768px){
+    .rightside{
+        display: none;
+
+    }
+   
+
+}

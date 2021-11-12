@@ -1,0 +1,7 @@
+.header .menu .dropdown-menu .avatar {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}

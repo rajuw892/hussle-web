@@ -1,0 +1,88 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Raju Raman\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Brackets\command;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Raju Raman\anaconda3;C:\Users\Raju Raman\anaconda3\Library\mingw-w64\bin;C:\Users\Raju Raman\anaconda3\Library\usr\bin;C:\Users\Raju Raman\anaconda3\Library\bin;C:\Users\Raju Raman\anaconda3\Scripts;C:\Users\Raju Raman\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Raju Raman\AppData\Local\Programs\Python\Python36\;C:\Windows\System32;C:\Users\Raju Raman\AppData\Local\atom\bin;C:\Users\Raju Raman\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Users\Raju Raman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Raju Raman\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.11.2.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Raju Raman\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141289:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:784:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:483:8)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
+
+npm manifest: 
+  {
+    "name": "client",
+    "proxy": "http://localhost:5000/",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@material-ui/core": "^4.11.3",
+      "@material-ui/icons": "^4.11.2",
+      "@material-ui/styles": "^4.11.3",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "axios": "^0.21.1",
+      "moment": "^2.29.1",
+      "node-modules": "^1.0.1",
+      "peerjs": "^1.3.2",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-player": "^2.9.0",
+      "react-redux": "^7.2.2",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "4.0.2",
+      "react-share": "^4.4.0",
+      "redux": "^4.0.5",
+      "redux-devtools-extension": "^2.13.8",
+      "redux-thunk": "^2.3.0",
+      "socket.io-client": "^4.0.1",
+      "web-vitals": "^1.0.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,23 @@
+.profile_info {
+  background: #fff;
+  margin-top: 5%;
+  width: 50%;
+  height: 500px;
+  border: 1px solid #ddd;
+  margin-left: 25%;
+
+  padding: 2.5rem 1.7rem;
+}
+
+.profile_info .pass {
+  position: relative;
+}
+
+.profile_info .pass small {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  opacity: 0.5;
+}
